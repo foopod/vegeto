@@ -2,6 +2,7 @@ var recipes = [{
       "title": "Chocolate Bliss Balls",
       "imageURL": "images/bb.png",
     "makes" : "~25 Bliss Balls",
+    "approved" : true,
       "ingredients": [
         {
           "quantity":"3/4 cup",
@@ -34,12 +35,16 @@ var recipes = [{
         "Roll bliss balls in Dessicated Cocunut until covered",
         "Chill in the fridge for up to a week and eat when you need a little something something"
       ],
-      "tags":["Vegan", "Snack", "Dessert"]
+    "notes" : [
+        "You can also roll the balls in cocoa powder if you want them to be super chocolatey"
+    ],
+      "tags":["Vegan", "Treat", "Snack"]
       },
     {
       "title": "Choc Peanut Butter Cups",
       "imageURL": "images/cpbc.png",
         "makes" : "12 Mini Cups",
+    "approved" : true,
       "ingredients": [
         {
           "quantity":"5 tbsp",
@@ -68,6 +73,131 @@ var recipes = [{
         "Put cupcakes in the freezer to set for 5 minutes",
         "Place a small dollop of peanut butter in the centre of each and then cover with the remaining chocolate mixture"
       ],
-      "tags":["Vegan", "Snack", "Dessert"]
+    "notes" : [
+        "Try swapping out the filling peanut butter or frozen berries of other keto friendly treats"
+    ],
+      "tags":["Vegan", "Treat"]
+      },
+    {
+      "title": "Spinach Scrambled Eggs",
+      "imageURL": "images/banner.jpg",
+        "makes" : "1 large serving",
+    "approved" : true,
+      "ingredients": [
+        {
+          "quantity":"3",
+          "name" : "Eggs"
+        },
+        {
+          "quantity":"3",
+          "name" : "Frozen Spinach Portions"
+        },
+        {
+          "quantity":"1 tbsp",
+          "name" : "Butter"
+        },
+        {
+          "quantity":"",
+          "name" : "Salt"
+        },
+        {
+          "quantity":"",
+          "name" : "Pepper"
+        },
+        {
+          "quantity":"",
+          "name" : "Merken (or Chipotle Seasoning)"
+        }
+      ],
+      "steps":[
+        "Thaw spinach in the microwave",
+        "Melt the butter in the pan and add the spinach",
+        "Spread out the spinach evenly in the pan and add your eggs",
+        "Use a spatula to mix as the eggs cook"
+      ],
+    "notes" : [
+        "I often make this up the night before and take it for lunch the next day because it is so quick to make"
+    ],
+      "tags":["Breakfast", "Lunch", "Meal"]
+      },
+    {
+      "title": "Chia Flax Hot Cereal",
+      "imageURL": "images/banner.jpg",
+        "makes" : "1 serving",
+    "approved" : false,
+        "referenceURL" : "https://www.reddit.com/r/vegetarianketo/comments/2sqnnb/im_not_a_vegetarian_myself_but_i_wanted_to_share/",
+      "ingredients": [
+        {
+          "quantity":"1/3 cup",
+          "name" : "Boiling Water"
+        },
+        {
+          "quantity":"2 tbsp",
+          "name" : "Flax Seed Meal"
+        },
+        {
+          "quantity":"2 tbsp",
+          "name" : "Chia Seeds"
+        },
+        {
+          "quantity":"2 tbsp",
+          "name" : "Nut Butter"
+        },
+        {
+          "quantity":"2 tbsp",
+          "name" : "Coconut oil"
+        }
+      ],
+      "steps":[
+        "Put all ingredients in a bowl and mix thoroughly",
+        "Eat it"
+      ],
+    "notes" : [
+        "You can add some Cocoa or Vanilla Essence if you want to add some extra flavour",
+        "You can also substitute whatever fat you like for the coconut oil",
+        "This can also be made in the microwave using cold water and zapping ",
+        "Feel free to add any additional sweetener"
+    ],
+      "tags":["Breakfast", "Vegan", "Meal"]
+      },
+    {
+      "title": "2 Minute Coconut Bread",
+      "imageURL": "images/banner.jpg",
+        "makes" : "1 bread",
+    "approved" : false,
+        "referenceURL" : "http://elowcarbfoodlist.org/2-minute-coconut-flour-bread/",
+      "ingredients": [
+        {
+          "quantity":"1",
+          "name" : "Egg"
+        },
+        {
+          "quantity":"1 tbsp",
+          "name" : "Butter"
+        },
+        {
+          "quantity":"1 tsp",
+          "name" : "Coconut Flour"
+        },
+        {
+          "quantity":"1 tbsp",
+          "name" : "Flax Seed Meal"
+        },
+        {
+          "quantity":"1/4 tsp",
+          "name" : "Baking Powder"
+        }
+      ],
+      "steps":[
+        "Put the butter in a big microwave friendly cup and nuke it for a few seconds until it’s melted",
+        "Add the other ingredients to the cup and stir like crazy. I mean it, stir for a while until it all comes together, and then a little longer",
+          "Put the cup into the microwave and set it on high for 1-2 minutes. For the first couple of times just keep your eye on it and check on it when you think it’s done. It should come apart from the edges of the cup of you shake it a little bit but not be gooey in the middle. If you cook it for too long it´ll get dry. If it spills out of the cup, buy a bigger cup (or use a small bowl)",
+          "Put the coconut flour bread onto a plate and cut it in half, immediately put your toppings on it because when it cools down it gets dry. I like it with butter, cheese and the Polaner sugar free preserves you can buy from netrition (if you can’t find them anywhere else). Anything goes really, it’s just like bread."
+      ],
+    "notes" : [
+        "Once you get the hang of it you can try changing up the ingredients and get creative. Add spices, use almond flour etc"
+    ],
+      "tags":["Breakfast", "Snack", "Meal"]
       }
+
 ]
