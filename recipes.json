@@ -1,0 +1,73 @@
+var recipes = [{
+      "title": "Chocolate Bliss Balls",
+      "imageURL": "images/bb.png",
+    "makes" : "~25 Bliss Balls",
+      "ingredients": [
+        {
+          "quantity":"3/4 cup",
+          "name" : "Peanut Butter"
+        },
+        {
+          "quantity":"1/2 cup",
+          "name" : "Almond Meal"
+        },
+        {
+          "quantity":"1/4 cup",
+          "name" : "Cocoa"
+        },
+        {
+          "quantity":"1 tsp",
+          "name" : "Vanilla Essence"
+        },
+        {
+          "quantity":"3-4 tbsp",
+          "name" : "Almond Milk"
+        },
+        {
+          "quantity":"1/2 cup",
+          "name" : "Dessicated Coconut"
+        }
+      ],
+      "steps":[
+        "Combine Peanut Butter, Almond Meal, Cocoa and Vanilla Essence in a bowl",
+        "Add Almond Milk slowly until consistency is sticky enough to form into balls",
+        "Roll bliss balls in Dessicated Cocunut until covered",
+        "Chill in the fridge for up to a week and eat when you need a little something something"
+      ],
+      "tags":["Vegan", "Snack", "Dessert"]
+      },
+    {
+      "title": "Choc Peanut Butter Cups",
+      "imageURL": "images/cpbc.png",
+        "makes" : "12 Mini Cups",
+      "ingredients": [
+        {
+          "quantity":"5 tbsp",
+          "name" : "Almond Butter"
+        },
+        {
+          "quantity":"5 tbsp",
+          "name" : "Coconut Oil"
+        },
+        {
+          "quantity":"1/4 cup",
+          "name" : "Cocoa"
+        },
+        {
+          "quantity":"1 tsp",
+          "name" : "Vanilla Essence"
+        },
+        {
+          "quantity":"3 tbsp",
+          "name" : "Peanut Butter (Salted)"
+        }
+      ],
+      "steps":[
+        "Combine Almond Butter, Coconut Oil, Cocoa and Vanilla Essence in a bowl",
+        "Place a small amount of mixture to cover the bottom of mini cupcake cases",
+        "Put cupcakes in the freezer to set for 5 minutes",
+        "Place a small dollop of peanut butter in the centre of each and then cover with the remaining chocolate mixture"
+      ],
+      "tags":["Vegan", "Snack", "Dessert"]
+      }
+]
