@@ -215,6 +215,38 @@
 
 	}
 
+/* Banner-title */
+
+    .banner-title {
+        margin-bottom: -2.25em;
+		font: inherit;
+        vertical-align: baseline;
+        font-size: 500%;
+        padding: 1em 1em 0 1em;
+        color: #d1f1e9;
+    }
+
+@media screen and (max-width: 1024px) {
+    .banner-title {
+        font-size: 350%;
+        padding: .5em .5em 0 .5em;
+    }
+}
+
+@media screen and (max-width: 736px) {
+    .banner-title {
+        font-size: 250%;
+        padding: .5em .5em 0 .5em;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .banner-title {
+        font-size: 250%;
+        padding: .7em .7em 0 .7em;
+    }
+}
+
 /* Grid */
 
 	.row {
@@ -2569,6 +2601,8 @@
 		#main > section:first-child {
 			border-top: 0;
 		}
+
+
 
 /* One */
 
