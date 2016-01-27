@@ -214,8 +214,9 @@
 		}
 
 	}
+/*
 
-/* Banner-title */
+ Banner-title 
 
     .banner-title {
         margin-bottom: -2.25em;
@@ -246,6 +247,7 @@
         padding: .7em .7em 0 .7em;
     }
 }
+*/
 
 /* Grid */
 
@@ -2606,6 +2608,7 @@
 
 /* One */
 
+/*
 	#one:before {
 		background-image: url("../../images/banner.jpg");
 		background-position: top right;
@@ -2616,6 +2619,7 @@
 		height: 15em;
 		width: 100%;
 	}
+*/
 
 /* Footer */
 
