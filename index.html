@@ -18,26 +18,31 @@
 		<!-- Header -->
 			<section id="header">
 				<header>
-					<span class="image avatar"><img src="images/avatar.jpg" alt="" /></span>
-					<h1 id="logo"><a href="#">Vegetarian Keto Recipes</a></h1>
-					<p>Get started by clicking on a category below..</p>
+                    <span class="image avatar"><img src="images/avatar.jpg" alt="" /></span>
+					<h1 id="logo" style="font-size:400%;"><a href="#"></a>Vegeto</h1>
+					<p>Vegetarian Keto Recipes</p><br>
+                    <input style ="color:#4acaa8;" type="text" ng-model="filters" placeholder="Search..."/>
+                    <br>
 				</header>
-				<nav>
+                
+				<nav id="nav">
 					<ul>
-						<li><a href="#one">Vegan</a></li>
-						<li><a href="#two">Snacks</a></li>
-						<li><a href="#three">Meals</a></li>
-						<li><a href="#four">Treats</a></li>
+						<li><a href="#" ng-click="filters = 'Vegan'">Vegan</a></li>
+						<li><a href="#" ng-click="filters = 'Snacks'">Snacks</a></li>
+						<li><a href="#" ng-click="filters = 'Meals'">Meals</a></li>
+						<li><a href="#" ng-click="filters = 'Treats'">Treats</a></li>
+                        
+
+                        
 					</ul>
                     
 				</nav>
+                
 				<footer>
 					<ul class="icons">
-						<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-						<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-						<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-						<li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
-						<li><a href="#" class="icon fa-envelope"><span class="label">Email</span></a></li>
+						<li><a href="http://instagram.com/jono_shields" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+						<li><a href="http://github.com/foopod/vegeto" class="icon fa-github"><span class="label">Github</span></a></li>
+						<li><a href="mailTo:jonathonshields@gmail.com" class="icon fa-envelope"><span class="label">Email</span></a></li>
 					</ul>
 				</footer>
 			</section>
@@ -50,10 +55,12 @@
 <!--                        <div class="banner-title">Vegeto</div>-->
 						<!-- One -->
 							<section id="one">
-								<div class="container" ng-repeat="recipe in cookbook.recipeList">
+								<div class="container" ng-repeat="recipe in cookbook.recipeList | filter: filters">
                                     <span class="image fit"><img ng-src="{{recipe.imageURL}}"></span>
 									<header class="major">
-										<h2>{{recipe.title}}</h2>
+                                        <h2 style="font-size:100%;" ng-show="recipe.approved">&#10026; Approved by Jono</h2>
+										<h2> {{recipe.title}}</h2>
+                                        
 										<p>Makes {{recipe.makes}}</p>
 									</header>
                                     

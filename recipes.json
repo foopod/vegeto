@@ -38,7 +38,7 @@ var recipes = [{
     "notes" : [
         "You can also roll the balls in cocoa powder if you want them to be super chocolatey"
     ],
-      "tags":["Vegan", "Treat", "Snack"]
+      "tags":["Vegan", "Treats", "Snacks"]
       },
     {
       "title": "Choc Peanut Butter Cups",
@@ -76,11 +76,11 @@ var recipes = [{
     "notes" : [
         "Try swapping out the filling peanut butter or frozen berries of other keto friendly treats"
     ],
-      "tags":["Vegan", "Treat"]
+      "tags":["Vegan", "Treats"]
       },
     {
       "title": "Spinach Scrambled Eggs",
-      "imageURL": "images/banner.jpg",
+      "imageURL": "images/sse.jpg",
         "makes" : "1 large serving",
     "approved" : true,
       "ingredients": [
@@ -118,11 +118,11 @@ var recipes = [{
     "notes" : [
         "I often make this up the night before and take it for lunch the next day because it is so quick to make"
     ],
-      "tags":["Breakfast", "Lunch", "Meal"]
+      "tags":["Breakfast", "Lunch", "Meals"]
       },
     {
       "title": "Chia Flax Hot Porridge",
-      "imageURL": "images/banner.jpg",
+      "imageURL": "images/cfhp.jpg",
         "makes" : "1 serving",
     "approved" : false,
         "referenceURL" : "https://www.reddit.com/r/vegetarianketo/comments/2sqnnb/im_not_a_vegetarian_myself_but_i_wanted_to_share/",
@@ -158,50 +158,11 @@ var recipes = [{
         "This can also be made in the microwave using cold water and zapping ",
         "Feel free to add any additional sweetener"
     ],
-      "tags":["Breakfast", "Vegan", "Meal"]
-      },
-    {
-      "title": "2 Minute Coconut Bread",
-      "imageURL": "images/banner.jpg",
-        "makes" : "1 bread",
-    "approved" : false,
-        "referenceURL" : "http://elowcarbfoodlist.org/2-minute-coconut-flour-bread/",
-      "ingredients": [
-        {
-          "quantity":"1",
-          "name" : "Egg"
-        },
-        {
-          "quantity":"1 tbsp",
-          "name" : "Butter"
-        },
-        {
-          "quantity":"1 tsp",
-          "name" : "Coconut Flour"
-        },
-        {
-          "quantity":"1 tbsp",
-          "name" : "Flax Seed Meal"
-        },
-        {
-          "quantity":"1/4 tsp",
-          "name" : "Baking Powder"
-        }
-      ],
-      "steps":[
-        "Put the butter in a big microwave friendly cup and nuke it for a few seconds until it’s melted",
-        "Add the other ingredients to the cup and stir like crazy. I mean it, stir for a while until it all comes together, and then a little longer",
-          "Put the cup into the microwave and set it on high for 1-2 minutes. For the first couple of times just keep your eye on it and check on it when you think it’s done. It should come apart from the edges of the cup of you shake it a little bit but not be gooey in the middle. If you cook it for too long it´ll get dry. If it spills out of the cup, buy a bigger cup (or use a small bowl)",
-          "Put the coconut flour bread onto a plate and cut it in half, immediately put your toppings on it because when it cools down it gets dry. I like it with butter, cheese and the Polaner sugar free preserves you can buy from netrition (if you can’t find them anywhere else). Anything goes really, it’s just like bread."
-      ],
-    "notes" : [
-        "Once you get the hang of it you can try changing up the ingredients and get creative. Add spices, use almond flour etc"
-    ],
-      "tags":["Breakfast", "Snack", "Meal"]
+      "tags":["Breakfast", "Vegan", "Meals"]
       },
     {
       "title": "Cream Cheese Pancakes",
-      "imageURL": "images/banner.jpg",
+      "imageURL": "images/ccp.jpg",
         "makes" : "4 pancakes",
     "approved" : false,
         "referenceURL" : "http://www.ibreatheimhungry.com/2012/01/cream-cheese-pancakes.html",
@@ -232,13 +193,13 @@ var recipes = [{
     "notes" : [
         "Try lemon juice and fresh berries to top your Ketocakes"
     ],
-      "tags":["Breakfast", "Meal"]
+      "tags":["Breakfast", "Meals"]
       },
     {
       "title": "Fathead Pizza Base",
-      "imageURL": "images/banner.jpg",
+      "imageURL": "images/fpb.jpg",
         "makes" : "1 medium pizza base",
-    "approved" : false,
+    "approved" : true,
         "referenceURL" : "http://www.ditchthecarbs.com/2015/04/23/fat-head-pizza/",
       "ingredients": [
         {
@@ -271,7 +232,7 @@ var recipes = [{
     "notes" : [
         "Try adding rosemary, garlic or other herbs to the base for extra flavour"
     ],
-      "tags":["Breakfast", "Meal"]
+      "tags":["Dinner", "Meals"]
       }
 
 ]

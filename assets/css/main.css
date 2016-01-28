@@ -214,6 +214,13 @@
 		}
 
 	}
+
+/*Search Field*/
+
+    .search-input {
+        color: black;
+    }
+
 /*
 
  Banner-title 
@@ -2672,7 +2679,7 @@
 			}
 
 				#header > header {
-					padding: 2em;
+					padding: 2em 2em 0em 2em;
 				}
 
 				#header > footer {
