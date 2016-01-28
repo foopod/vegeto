@@ -58,7 +58,7 @@
 									</header>
                                     
                                     <h4>Ingredients</h4>
-                                    <ul style="list-style-type:none;">
+                                    <ul >
 										<li ng-repeat="ingredient in recipe.ingredients">
                                             <div class="row uniform">
                                                 <div class="3u" style="font-weight:800;">{{ingredient.quantity}}</div>
@@ -71,6 +71,10 @@
                                     <ol >
 										<li ng-repeat="step in recipe.steps">{{step}}.</li>
 									</ol>
+                                    <h4>Notes</h4>
+                                    <ul style="list-style-type:circle;">
+										<li ng-repeat="note in recipe.notes">{{note}}.</li>
+									</ul>
 							</section>
 						<!-- Two -->
 <!--

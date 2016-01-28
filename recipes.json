@@ -121,7 +121,7 @@ var recipes = [{
       "tags":["Breakfast", "Lunch", "Meal"]
       },
     {
-      "title": "Chia Flax Hot Cereal",
+      "title": "Chia Flax Hot Porridge",
       "imageURL": "images/banner.jpg",
         "makes" : "1 serving",
     "approved" : false,
@@ -198,6 +198,80 @@ var recipes = [{
         "Once you get the hang of it you can try changing up the ingredients and get creative. Add spices, use almond flour etc"
     ],
       "tags":["Breakfast", "Snack", "Meal"]
+      },
+    {
+      "title": "Cream Cheese Pancakes",
+      "imageURL": "images/banner.jpg",
+        "makes" : "4 pancakes",
+    "approved" : false,
+        "referenceURL" : "http://www.ibreatheimhungry.com/2012/01/cream-cheese-pancakes.html",
+      "ingredients": [
+        {
+          "quantity":"2",
+          "name" : "Eggs"
+        },
+        {
+          "quantity":"60g",
+          "name" : "Cream Cheese"
+        },
+        {
+          "quantity":"1/2 tsp",
+          "name" : "Cinnamon"
+        },
+        {
+          "quantity":"1 tsp",
+          "name" : "Sweetener (Optional)"
+        }
+      ],
+      "steps":[
+        "Put all ingredients in a blender and combine until smooth",
+        "Pour 1/4 of the batter into a hot greased pan",
+        "Cook until both sides are golden",
+          "Serve with your choice of sugar free toppings"
+      ],
+    "notes" : [
+        "Try lemon juice and fresh berries to top your Ketocakes"
+    ],
+      "tags":["Breakfast", "Meal"]
+      },
+    {
+      "title": "Fathead Pizza Base",
+      "imageURL": "images/banner.jpg",
+        "makes" : "1 medium pizza base",
+    "approved" : false,
+        "referenceURL" : "http://www.ditchthecarbs.com/2015/04/23/fat-head-pizza/",
+      "ingredients": [
+        {
+          "quantity":"170g",
+          "name" : "Grated Cheese (Mozarella or Mild cheese is recommended)"
+        },
+        {
+          "quantity":"85g",
+          "name" : "Almond Meal"
+        },
+        {
+          "quantity":"2 tbsp",
+          "name" : "Cream Cheese"
+        },
+        {
+          "quantity":"1",
+          "name" : "Egg"
+        },
+        {
+          "quantity":"A pinch",
+          "name" : "Salt"
+        }
+      ],
+      "steps":[
+        "Melt the cheese in the microwave stirring occasionally to ensure it melts evenly",
+        "Gently stir in the Egg, Salt and Almond meal",
+        "Flatten between two sheets of baking paper and bake at 220C for 12-15mins or until brown, flip halfway through to ensure it gets nice and crispy all over",
+          "Once cooked, take it out of the oven and add all of your toppings, then return to the oven for another 5 minutes to finish it off"
+      ],
+    "notes" : [
+        "Try adding rosemary, garlic or other herbs to the base for extra flavour"
+    ],
+      "tags":["Breakfast", "Meal"]
       }
 
 ]
