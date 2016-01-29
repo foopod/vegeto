@@ -85,6 +85,7 @@
 		width: 45em;
 	}
 
+/*
 	@media screen and (max-width: 1680px) {
 
 		.container.\31 25\25 {
@@ -110,6 +111,8 @@
 		}
 
 	}
+*/
+/*
 
 	@media screen and (max-width: 1280px) {
 
@@ -136,7 +139,9 @@
 		}
 
 	}
+*/
 
+/*
 	@media screen and (max-width: 1024px) {
 
 		.container.\31 25\25 {
@@ -162,6 +167,7 @@
 		}
 
 	}
+*/
 
 	@media screen and (max-width: 736px) {
 
@@ -2521,12 +2527,12 @@
 			}
 
 		#header > header {
-			padding: 3em;
+			padding: 3em 3em 0 3em;
 		}
 
 			#header > header .avatar {
 				display: block;
-				margin: 0 auto 2.25em auto;
+				margin: 0 auto 1em auto;
 				width: 8em;
 			}
 
@@ -2666,36 +2672,23 @@
 
 	@media screen and (max-width: 1680px) {
 
-		/* Basic */
+
+			/* Basic */
 
 			body, input, select, textarea {
-				font-size: 13pt;
+				font-size: 11pt;
 			}
 
 		/* Header */
 
 			#header {
-				width: 21em;
+				width: 20em;
 			}
-
-				#header > header {
-					padding: 2em 2em 0em 2em;
-				}
-
-				#header > footer {
-					padding: 1.5em;
-				}
 
 		/* Wrapper */
 
 			#wrapper {
-				padding-right: 21em;
-			}
-
-		/* Main */
-
-			#main > section > .container {
-				padding: 4em 0 2em 0;
+				padding-right: 20em;
 			}
 
 	}
